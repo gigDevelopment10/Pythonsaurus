@@ -1,6 +1,8 @@
-Binary search tree in python
-Introduction:
-Introduction to Binary Search Tree – Data Structure and Algorithm Tutorials
+# Binary search tree in python
+
+## Introduction:
+### Introduction to Binary Search Tree –
+Data Structure and Algorithm Tutorials
 Applications of BST
 Application, Advantages and Disadvantages of Binary Search Tree
 Basic Operations:
