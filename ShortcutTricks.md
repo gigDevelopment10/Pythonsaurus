@@ -6,3 +6,8 @@ output = ['aaa', 'bba', 'csa']; string = 'aaabbacsa'; k = 3
 list(map(''.join, zip(*[iter(string)]*k)))
 
 ```
+**Magic functions**
+```
+def __rmul__(self, other):
+ return other * self
+```
