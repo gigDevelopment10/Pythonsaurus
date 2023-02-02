@@ -42,7 +42,7 @@ for i in range(len(nums)):
 return max_sum
 ```
 
-**2.Intersection of two arrays**
+**3.Intersection of two arrays**
 
 Two pointer approach<br>
 T: O(nlogn) + O (n+m)<br>
@@ -67,3 +67,24 @@ nums1.sort()
                     n+=1
         return lists
 ```
+
+**4.Best time to buy and sell stocks**
+Incremental array approach <br>
+maximize the profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock <br>
+Pseudocode:
+```
+min = prices[0]
+        profit = 0 
+
+        for i in prices:
+            # [7,1,5,3,6,4]
+            if  i < min : 
+                min = i 
+            pft = i - min 
+            if profit < pft : 
+                profit = pft
+
+        return profit
+```
+
+
