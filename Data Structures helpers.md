@@ -74,17 +74,17 @@ maximize the profit by choosing a single day to buy one stock and choosing a dif
 Pseudocode:
 ```
 min = prices[0]
-        profit = 0 
+profit = 0 
 
-        for i in prices:
-            # [7,1,5,3,6,4]
-            if  i < min : 
-                min = i 
-            pft = i - min 
-            if profit < pft : 
-                profit = pft
+for i in prices:
+    # [7,1,5,3,6,4]
+    if  i < min : 
+        min = i 
+    pft = i - min 
+    if profit < pft : 
+        profit = pft
 
-        return profit
+return profit
 ```
 
 
