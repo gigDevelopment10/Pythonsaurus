@@ -69,7 +69,7 @@ nums1.sort()
         return lists
 ```
 
-**4.Best time to buy and sell stocks**
+**4.Best time to buy and sell stocks** <br>
 Incremental array approach <br>
 maximize the profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock <br>
 Pseudocode:
