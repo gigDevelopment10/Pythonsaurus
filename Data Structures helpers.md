@@ -49,6 +49,7 @@ T: O(nlogn) + O (n+m)<br>
 
 Pseudocode:
 ```
+# Two pointer approach
 nums1.sort()
         nums2.sort()
         m = 0
@@ -73,6 +74,7 @@ Incremental array approach <br>
 maximize the profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock <br>
 Pseudocode:
 ```
+# Incremental array approach
 min = prices[0]
 profit = 0 
 
