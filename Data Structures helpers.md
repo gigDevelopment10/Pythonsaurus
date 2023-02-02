@@ -42,4 +42,29 @@ for i in range(len(nums)):
 return max_sum
 ```
 
-**2.Maximum subarray**
+**2.Intersection of two arrays**
+T: O(nlogn) + O (n+m)
+
+Pseudocode:
+```
+nums1.sort()
+        nums2.sort()
+
+        m = 0
+        n = 0 
+
+        lists = []
+
+        while(m<=(len(nums1)-1) and n<=(len(nums2)-1)):
+            if nums1[m] == nums2[n]: 
+                lists.append(nums1[m])
+                m+=1
+                n+=1
+            else:
+                if nums1[m]<nums2[n]:
+                    m+=1 
+                else :
+                    n+=1
+
+        return lists
+```
