@@ -43,16 +43,16 @@ return max_sum
 ```
 
 **2.Intersection of two arrays**
-T: O(nlogn) + O (n+m)
+
+Two pointer apprach<br>
+T: O(nlogn) + O (n+m)<br>
 
 Pseudocode:
 ```
 nums1.sort()
         nums2.sort()
-
         m = 0
         n = 0 
-
         lists = []
 
         while(m<=(len(nums1)-1) and n<=(len(nums2)-1)):
@@ -65,6 +65,5 @@ nums1.sort()
                     m+=1 
                 else :
                     n+=1
-
         return lists
 ```
