@@ -1,5 +1,5 @@
 **1.Target Sum in an Array**
-* Which two elements guve the target sum ? <br>
+* Which two elements give the target sum ; return the indices? <br>
   Approaches -> Brute Force O(n^3) <br>
              -> Optimize Brute force O(n^2) <br>
              -> Two Pointer Method O(n) Needs Sorted array <br>
@@ -12,7 +12,11 @@
 Pseudocode 
 ```
 # Hashing  : 
-
+d = {}
+if index,value in enumerate(nums):
+   return (d[target-value], index)   
+else: 
+   d[value] = index
 ```
  
 **2.Maximum subarray**
