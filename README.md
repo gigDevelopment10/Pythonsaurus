@@ -11,6 +11,6 @@ print(sys.getrecursionlimit())
 -> Subarray - Contigious block of memory <br>
 -> Substring - Contigious block of string <br>
 -> Subsequence - Sequence derieved from other sequence by ading or deleting elements but without changing the order <br>
--> Subset -  Any possible combination of the original set. It maintans the relative order of the string <br>
+-> Subset -  Any possible combination of the original set. It does not maintan the relative order of the string <br>
 
 **3.**
