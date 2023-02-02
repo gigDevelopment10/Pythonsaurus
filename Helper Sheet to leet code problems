@@ -1,4 +1,4 @@
-**1. Target Sum in an Array **
+**1. Target Sum in an Array**
 * Which two elements guve the target sum ?
   Approaches -> Brute Force O(n^3)
              -> Optimize Brute force O(n^2)
