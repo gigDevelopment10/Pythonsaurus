@@ -44,7 +44,7 @@ return max_sum
 
 **2.Intersection of two arrays**
 
-Two pointer apprach<br>
+Two pointer approach<br>
 T: O(nlogn) + O (n+m)<br>
 
 Pseudocode:
