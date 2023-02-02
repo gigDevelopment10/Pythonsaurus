@@ -51,22 +51,22 @@ Pseudocode:
 ```
 # Two pointer approach
 nums1.sort()
-        nums2.sort()
-        m = 0
-        n = 0 
-        lists = []
+nums2.sort()
+m = 0
+n = 0 
+lists = []
 
-        while(m<=(len(nums1)-1) and n<=(len(nums2)-1)):
-            if nums1[m] == nums2[n]: 
-                lists.append(nums1[m])
-                m+=1
-                n+=1
-            else:
-                if nums1[m]<nums2[n]:
-                    m+=1 
-                else :
-                    n+=1
-        return lists
+while(m<=(len(nums1)-1) and n<=(len(nums2)-1)):
+    if nums1[m] == nums2[n]: 
+        lists.append(nums1[m])
+        m+=1
+        n+=1
+    else:
+        if nums1[m]<nums2[n]:
+            m+=1 
+        else :
+            n+=1
+return lists
 ```
 
 **4.Best time to buy and sell stocks** <br>
