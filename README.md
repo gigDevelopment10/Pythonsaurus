@@ -17,5 +17,9 @@ print(sys.getrecursionlimit())
 <br>
 -> 2-d array to 1-d: M[i][j]=M[c*i+j] , where n is the number of cols. This is the one way of converting 2-d indices into one 1-d index. <br>
 -> 1-d array to 2-d: M[i] => M[i/n][i%n] convert 1d to 2d.<br>
+```
+mat = [[0 for _ in range(cols)]]*rows to initialize 2d matrix
+mat [0] * r * c to initilize 1d array
+```
 
 **4.**
