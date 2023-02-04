@@ -15,7 +15,7 @@ print(sys.getrecursionlimit())
 
 **3. Matrix ( mat: List[List[int]] ) resizing**
 <br>
--> 2-d array to 1-d: M[i][j]=M[n*i+j] , where n is the number of cols. This is the one way of converting 2-d indices into one 1-d index. <br>
+-> 2-d array to 1-d: M[i][j]=M[c*i+j] , where n is the number of cols. This is the one way of converting 2-d indices into one 1-d index. <br>
 -> 1-d array to 2-d: M[i] => M[i/n][i%n] convert 1d to 2d.<br>
 
 **4.**
