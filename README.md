@@ -22,15 +22,15 @@ mat = [[0 for _ in range(cols)]]*rows to initialize 2d matrix
 mat [0] * r * c to initilize 1d array
 ```
 
-**4.Which approach? **
-Top/ Maximum / Closest element --> HEAP <br>
-Sorted array / List --> Binary Search / Two pointer method <br>
-Combination / Permutation --> Backtracking / BFS <br>
-Tree / Graph --> BFS/ DFS <br>
-Recursive solution / iterative --> Stack <br>
-Array solution --> O(n2)/ O(1) --> Hashing / sets O(n):O(n) // sorting (nlogn) <br>
-Optimization --> Dynamic programming (Op= Maximization/minimizaton) <br>
-Common / substring / string --> Hashmap/tree <br>
-Search/ Manupulate strings --> tree <br>
-Linked list with no extra space --> Fast and slow pointer <br>
+**4.Which approach?** <br>
+-> Top/ Maximum / Closest element --> HEAP <br>
+-> Sorted array / List --> Binary Search / Two pointer method <br>
+-> Combination / Permutation --> Backtracking / BFS <br>
+-> Tree / Graph --> BFS/ DFS <br>
+-> Recursive solution / iterative --> Stack <br>
+-> Array solution --> O(n2)/ O(1) --> Hashing / sets O(n):O(n) // sorting (nlogn) <br>
+-> Optimization --> Dynamic programming (Op= Maximization/minimizaton) <br>
+-> Common / substring / string --> Hashmap/tree <br>
+-> Search/ Manupulate strings --> tree <br>
+-> Linked list with no extra space --> Fast and slow pointer <br>
 
