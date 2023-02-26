@@ -96,11 +96,18 @@ python3 -m pip install --upgrade build
 py -m build
 ```
 
-### 
+### Upload the distribution
+Need to create a pypi account here *
 ```
 python3 -m pip install --upgrade twine
 
 python3 -m twine upload --repository repo_name dist/*
+```
+
+### Import the project 
+```
+from pkg_name_in_src import file_name
+# from zoyapkg import example
 ```
 
 ### Additional references 
