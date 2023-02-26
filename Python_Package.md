@@ -1,4 +1,6 @@
-# Make sure you have upgraded version of pip
+# Create a python package
+
+Make sure you have upgraded version of pip
 Windows
 ```
 py -m pip install --upgrade pip
