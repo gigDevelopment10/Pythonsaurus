@@ -95,7 +95,8 @@ python3 -m pip install --upgrade build
 ```
 py -m build
 ```
-
+### Additional references 
+1. Build python pkg from c++ : https://thomastrapp.com/posts/building-a-pypi-package-for-a-modern-cpp-project/
 
 
 
