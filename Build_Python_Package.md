@@ -95,6 +95,14 @@ python3 -m pip install --upgrade build
 ```
 py -m build
 ```
+
+### 
+```
+python3 -m pip install --upgrade twine
+
+python3 -m twine upload --repository repo_name dist/*
+```
+
 ### Additional references 
 1. Build python pkg from c++ : https://thomastrapp.com/posts/building-a-pypi-package-for-a-modern-cpp-project/
 2. Original Reference : https://packaging.python.org/en/latest/tutorials/packaging-projects/
